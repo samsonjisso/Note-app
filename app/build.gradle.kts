@@ -51,6 +51,7 @@ dependencies {
     implementation("io.insert-koin:koin-compose-viewmodel-navigation:$koin_version")// Kotlin extensions for Room
 
     // Koin for Dependency Injection
+    implementation("io.insert-koin:koin-android:$koin_version")
     implementation(project.dependencies.platform("io.insert-koin:koin-bom:$koin_version"))
     implementation("io.insert-koin:koin-core")
 
